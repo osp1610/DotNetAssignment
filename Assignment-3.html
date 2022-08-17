@@ -1,0 +1,125 @@
+<html>
+    <head><title>Assignment-3</title></head>
+    <style>
+    
+  
+
+    body {
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 47%;
+    
+     color: white;
+    
+     
+}
+
+td{
+    padding: 6px;
+
+}
+
+
+
+    </style>
+    <body>
+
+        <form name="RegForm" method="post" style="background-color: black; ">
+
+        <div> <p style="background-color: orange ; color:yellow;">Sign Up</p> </div>
+
+        <table style="color: yellow">
+            <tr>
+                <td style="text-align: right;" >First Name </td>
+                <td > <input type="text" placeholder="Enter First Name..." name="Fname"  required ></td>
+            </tr>
+         
+            <tr>
+                <td style="text-align: right;">Last Name </td>
+                <td><input type="text" placeholder="Enter Last Name..." name="Lname" required></td>
+            </tr>
+
+            <tr>
+                <td style="text-align: right;">Screen Name </td>
+                <td><input type="text" placeholder="Enter Screen Name..." name="scname" required></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">Date of Birth</td>
+                <td>
+                    <select type="text" value="" name="month">
+                        <option>Jan</option><option>Feb</option><option>Mar</option><option>April</option>
+                        <option>May</option><option>Jun</option><option>July</option><option>Aug</option>
+                        <option>Sep</option><option>Oct</option><option>Nov</option><option>Dec</option>
+                    </select>
+                
+                
+                    <select type="text" value="" name="date">
+                        <option>1</option><option>2</option><option>3</option><option>4</option>
+                    
+                    </select>
+                
+                
+                    <select type="text" value="" name="year">
+                        <option>1998</option><option>1999</option><option>2000</option><option>2001</option>
+                
+                    </select>
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td style="text-align: right;">Gender</td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: right;">
+                    Country   
+                </td>
+                <td><select type="text" value="" name="country">
+                    <option>USA</option>
+                    <option>India</option>
+                    <option>China</option>
+                </select></td>
+
+            </tr>
+
+            <tr>
+                <td style="text-align: right;">Email </td>
+                <td ><input type="text" placeholder="Enter Email... " name = "email" required ></td>
+            </tr>
+         
+            <tr>
+                <td style="text-align: right; " > Phone </td>
+                <td><input type="number" pattern="[0-9]{10}" placeholder="Enter Phone Number..." name = "Phone" required ></td>
+            </tr>
+
+            <tr>
+                <td style="text-align: right;">Password </td>
+                <td><input type="text" placeholder="Enter Password.." name = "Pass" required> </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">Confirm Password </td>
+                <td><input type="text" placeholder="Confirm password.."  name = "reqpass" required></td>
+            </tr>
+    </table>
+      <p style="color : yellow"> <input type="checkbox"> I agree to the Tearm of Use</p>
+
+
+
+    <div >
+        <p style="background-color: orange; ">
+            <input type="submit"
+                value="send" name="Submit" style="background-color: green; color:white;  "/>
+            <input type= "reset" value="Cancel" name="Cancel" style="background-color: red; color:white;  " />
+        </p>
+    </div>
+    </form>
+        
+
+    </body>
+</html>
